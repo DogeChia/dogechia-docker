@@ -49,11 +49,6 @@ docker exec -it chia venv/bin/dogechia plots add -d /plots
 docker exec -it dogechia venv/bin/dogechia show -s -c
 ```
 
-#### Connect to testnet?
-```
-docker run -d --expose=58444 --expose=8555 -e testnet=true --name <container-name> ghcr.io/chia-network/chia:latest
-```
-
 #### Need a wallet?
 ```
 docker exec -it dogechia-farmer1 venv/bin/dogechia wallet show (follow the prompts)
