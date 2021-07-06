@@ -49,7 +49,7 @@ jobs:
           push: true
           build-args: |
             "BRANCH=${{ github.event.inputs.upstream_branch }}"
-          tags: ghcr.io/DogeChia/dogechia:${{ github.event.inputs.image_tag }}
+          tags: ghcr.io/dogechia/dogechia:${{ github.event.inputs.image_tag }}
 
   docker_build_and_publish_dockerhub:
     runs-on: ubuntu-latest
