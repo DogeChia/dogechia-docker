@@ -14,7 +14,7 @@ on:
 
 jobs:
   docker_build_and_publish_github:
-    runs-on: [Bootstrap]
+    runs-on: ubuntu-latest
     steps:
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
