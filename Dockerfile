@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+LABEL org.opencontainers.image.source https://github.com/DogeChia/dogechia-docker
 
 EXPOSE 6769
 EXPOSE 6969
